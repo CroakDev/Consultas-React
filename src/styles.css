@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #212b46;
+    padding: 24px;
+}
+
+.MenuLink{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 8px;
+    margin-left: 8px;
+    border-radius: 8px;
+    background-color: #161c2e8c;
+    padding: 11px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #212b46;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4e65a3;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4e65a3;
+  }

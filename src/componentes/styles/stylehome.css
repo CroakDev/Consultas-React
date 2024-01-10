@@ -1,0 +1,43 @@
+.containerqr{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #121212 0%, #2c2146 50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-size: 85px;
+    color: #ebebeb;
+    animation: flipTitle 2s;
+}
+
+@keyframes flipTitle {
+    from {
+        transform: rotateX(90deg);
+    }
+    to {
+        transform: rotateX(0deg);
+    }
+}
+
+.containerInput2{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 15px;
+    margin: 34px 0;
+    display: flex;
+    border-radius: 8px;
+
+}
+
+.text-explit{
+    font-size: 15px;
+    margin: 0px 40vh 0px 40vh;
+    font-family: cursive;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+}
